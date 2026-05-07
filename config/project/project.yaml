@@ -1,0 +1,132 @@
+dateModified: 1749991145
+email:
+  fromEmail: akg@gmail.com
+  fromName: 'multisite cms'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  cultuurColette:
+    hasUrls: true
+    name: 'cultuur colette'
+    settings:
+      path: '@webroot/assets/colette'
+    type: craft\fs\Local
+    url: '@web/assets/colette'
+  mariahuis:
+    hasUrls: true
+    name: mariahuis
+    settings:
+      path: '@webroot/assets/mariahuis'
+    type: craft\fs\Local
+    url: '@web/assets/mariahuis'
+  sintColeta:
+    hasUrls: true
+    name: sint-coleta
+    settings:
+      path: '@webroot/assets/sint-coleta'
+    type: craft\fs\Local
+    url: '@web/assets/sint-coleta'
+meta:
+  __names__:
+    00c2fcb6-5095-4aa4-bb09-5edc3ed1980d: 'cultuur colette' # cultuur colette
+    0dbb3684-640a-42c3-8d69-44ebcb9d243c: socials # socials
+    1b63fde6-bfe4-4077-9eac-b5cb1cfeee53: 'Sfeer Images' # Sfeer Images
+    1d6f481a-d110-4cfe-adcd-c01f4dfad1a3: Zorgafbeeldingen # Zorgafbeeldingen
+    1f9192f7-ec38-4f89-863f-79ade97b04fa: navItems # navItems
+    5e7bf9a4-054a-4137-aad1-3aaeff80e5e5: 'Facilitaire Diensten' # Facilitaire Diensten
+    7a2a5b69-b8c1-4f5d-8724-8c3fb08cd9c5: 'Home page' # Home page
+    7d87d3c0-9b0a-42f6-9032-c230f824d597: 'Home page' # Home page
+    8b9d46df-ec83-4743-80fe-f154f25e462d: Heading # Heading
+    12e33af5-22e5-4810-a29a-4eafd0c140d5: Zorgafbeeldingen # Zorgafbeeldingen
+    39a26048-d8e6-48ae-bad7-eefa0c737a00: paramedish # paramedish
+    0040ae8f-9fcf-4870-881e-4f3e1b726e04: 'Team managers' # Team managers
+    43b28afb-ae43-4b46-b1c8-7dee1b3c0fb8: 'multisite cms' # multisite cms
+    56caabcb-9b95-4b2c-ba7a-4259d027bb03: 'Hero Image' # Hero Image
+    97b5191a-35cf-4528-af31-88b62a1b4f3a: Wonen # Wonen
+    0127a613-d264-4c23-8aa4-4a4468b130c1: Longtext # Longtext
+    173b741a-f801-4574-8389-8f331484f4c4: 'socials icon' # socials icon
+    182d7633-959a-49a7-ac3b-dc6004c59e14: 'About page' # About page
+    329ac4d8-4d41-4fd9-8e51-48ca884de25b: Zaalverhuur # Zaalverhuur
+    355d90d6-f51f-4b08-930e-a70547205e9b: zorgteam # zorgteam
+    381a0bc4-0f70-4126-b52a-b7e8d8cbbe43: projects # projects
+    429f9934-8cd5-47e7-bb1b-db99f2389a9e: Wonen # Wonen
+    503bf49e-28e2-4f2f-a113-990657461d68: footer # footer
+    740b9183-a194-428b-95b1-08862dd1a337: 'header logo' # header logo
+    898c34ed-4e55-459d-80ca-b0c21dd250f4: Sfeerbeelden # Sfeerbeelden
+    2586cd74-aa98-4355-81dd-4d3226fe9650: Sint-Coleta # Sint-Coleta
+    3784bd17-4458-4dce-9a2b-ca6755da9aea: 'Content Wonen' # Content Wonen
+    4265dbc7-a830-474d-8a3a-9aa9151007cd: 'Foto’s & Evenementen' # Foto’s & Evenementen
+    04617b16-e0c7-4974-8865-b9224c05d067: 'socials url' # socials url
+    5145b176-0e5e-406b-99fa-bf864b1cee77: Projects # Projects
+    7094e591-417f-42d9-ac11-3ab0286ae513: 'Cultuur Colette' # Cultuur Colette
+    8462b6bc-a453-4395-a248-98d3b0fd28e7: 'Footer Nav' # Footer Nav
+    8594e9b5-caf2-4d4c-abcc-c6c2c5c3e87f: Meewerken # Meewerken
+    61119bdf-8c37-4f44-b500-145c0c17a7d8: 'Contact Page' # Contact Page
+    64818ef1-2ee5-4b27-a17b-55628dfa2093: 'Content Wonen' # Content Wonen
+    76512c42-729d-422b-83c9-0374c64ff97c: Zaalverhuur # Zaalverhuur
+    550744bc-0323-48c3-aad2-7f5010e23275: image # image
+    574815ea-8309-4923-b4ef-27d7dd272184: sint-coleta # sint-coleta
+    576173a1-013a-450e-a3cd-c135e241a900: 'Site Settings' # Site Settings
+    947606c4-020b-443b-b9dc-8d23ad54d982: 'Footer Socials' # Footer Socials
+    2569842c-0aec-44e6-8b39-ef7fbee3e0af: Sfeerbeelden # Sfeerbeelden
+    04427978-7710-4c5d-857b-d01e57e2bb9a: team # team
+    8285487f-7dd3-4533-a52d-bf5cc442aeb4: Mariahuis # Mariahuis
+    9638457d-dcf3-4651-b110-3afb116409da: 'Copyright Text' # Copyright Text
+    57214744-3e71-4bc9-97ac-1fa93fb4f876: Contact # Contact
+    77826894-cea3-4f23-9fbd-c2a4450996bb: 'Site Settings' # Site Settings
+    98794487-2a00-4d81-9d35-cb811ece5b1c: 'nav target' # nav target
+    a73e8344-cdb5-4e80-b747-4bdf7c178275: Contact # Contact
+    a290b2f1-4640-401c-9884-d6d2800c68a9: Diensten # Diensten
+    ab4ac2b8-0348-490e-a1d8-c02351505b0c: 'About page' # About page
+    ab4eba5c-a169-4046-a357-2d5daee298f3: 'Team managers' # Team managers
+    acbbaf7a-396d-440b-8a72-77429190fbf4: footer # footer
+    b1dcfbde-1f7c-4f7f-bbb8-e1c1c3b12c8f: Zorgteam # Zorgteam
+    b2d1e2c2-b9cd-4e14-832e-787028e219d4: team # team
+    b3dc508e-66a7-46d8-8cba-e58656cc26c1: 'nav label' # nav label
+    b5666cda-6188-4092-8a38-590862b1867e: Diensten # Diensten
+    bbd32f72-a7c4-4248-8b85-fb976daf52ef: 'Public Schema' # Public Schema
+    bdc82978-5455-4a39-abc5-b31f114914ab: 'footer text' # footer text
+    cbffd94e-0de3-4218-bbe5-cf69c6fc2b1f: Shorttext # Shorttext
+    d09af4db-7934-4a1f-95ff-8ca0906678d9: maps # maps
+    d5e471cf-bdf7-4e8c-a38f-c2afbef874be: facilitaireDiensten # facilitaireDiensten
+    da9ec10f-12bc-4d3d-a81b-40f49526d5e3: NavStructuur # NavStructuur
+    ddda41dd-0f46-478b-adf6-e0993e3401a0: Simple # Simple
+    e2a16f4e-e68d-4691-bb6d-69396921cde6: Meewerken # Meewerken
+    e3b18acb-2d5b-4c4c-a437-f2cfff04562d: mariahuis # mariahuis
+    e8566ad4-3060-4438-9d37-aedb39f64380: Subheading # Subheading
+    e98640da-ba1f-4dd7-92ba-e1381735e573: paramedish # paramedish
+    ef5f8ffc-db4a-4bde-be4c-dd9764883dc1: 'footer nav' # footer nav
+    f08bc1cf-48eb-4494-bf20-48e4944f2dd9: 'Foto’s & Evenementen' # Foto’s & Evenementen
+    f2f0247a-8d41-41bc-b6b3-6f1dab00174c: class # class
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      allowedMessageFields: null
+      prependSender: 'On behalf of'
+      prependSubject: 'New message from Mariahuis'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: $CONTACT_EMAIL
+  oembed:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+system:
+  edition: solo
+  live: true
+  name: 'multisite cms'
+  schemaVersion: 5.7.0.3
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

@@ -1,0 +1,57 @@
+{% extends '_layouts/_base.twig' %}
+
+{% block content %}
+
+    {% include '_components/_hero.twig' %}
+
+    <section class="text-section">
+        <div class="container">
+            <h2 class="text-section__title">{{ entry.subheading }}</h2>
+            <p class="text-section__text">{{ entry.shortText }}</p>
+        </div>
+    </section>
+
+    <section class="text-section">
+        <div class="container">
+            <h2 class="text-section__title">{{ entry.subheading2 }}</h2>
+            <p class="text-section__text">{{ entry.shortText2 }}</p>
+        </div>
+    </section>
+
+    <section class="text-section">
+        <div class="container">
+            <h2 class="text-section__title">{{ entry.subheading3 }}</h2>
+            <p class="text-section__text">{{ entry.longText }}</p>
+        </div>
+        <div class="about-images">
+            {% for asset in entry.image.all() %}
+                <img src="{{ asset.url }}">
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="cards-section">
+        <h2 class="cards-section__title">{{ entry.subheading4 }}</h2>
+        <div class="experts-grid">
+            {% for block in entry.Experten %}
+            <div class="card expert-card">
+                <h3 class="card__title">{{ block.subheading }}</h3>
+                {% if block.image.one() %}
+                    <img class="card__image" src="{{ block.image.one().url }}">
+                {% endif %}
+                <p class="card__text">{{ block.shortText }}</p>
+            </div>
+            {% endfor %}
+        </div>
+ 
+        <div class="team-grid">
+            {% for block in entry.teamManagers %}
+            <div class="team-card">
+                {% if block.image.one() %}
+                <img class="card__image" src="{{ block.image.one().url }}">
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </section>    
+{% endblock %}

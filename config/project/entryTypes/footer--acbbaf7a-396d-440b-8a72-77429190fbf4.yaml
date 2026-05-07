@@ -1,0 +1,136 @@
+color: fuchsia
+fieldLayouts:
+  1cb17aba-5c09-4945-bba8-dea578b1e34b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-06-07T18:56:42+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 2e397f47-5e17-402a-897e-ac43ac73e8e9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-06-09T19:49:19+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 740b9183-a194-428b-95b1-08862dd1a337 # header logo
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 56748d61-cf5b-4fcb-a283-560460098e5d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-06-09T19:51:27+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: bdc82978-5455-4a39-abc5-b31f114914ab # footer text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b70b2d27-43fd-426c-978e-58c1804cb4f4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-06-07T20:30:51+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 9638457d-dcf3-4651-b110-3afb116409da # Copyright Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 218777ae-63ca-487a-a53c-ef23fb2c1c32
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-06-09T00:19:30+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 947606c4-020b-443b-b9dc-8d23ad54d982 # Footer Socials
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1e4ddc73-2833-409d-a144-2a365cc83bad
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-06-10T13:00:07+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 8462b6bc-a453-4395-a248-98d3b0fd28e7 # Footer Nav
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2449fad0-64fc-4b40-8bc8-17d7237482e3
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: af4ff200-872b-4c16-a077-74d3804e8f10
+        userCondition: null
+handle: footer
+hasTitleField: true
+icon: boot
+name: footer
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

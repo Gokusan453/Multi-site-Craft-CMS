@@ -1,0 +1,55 @@
+{% extends '_layouts/_base.twig' %}
+
+{% block content %}
+    {% include '_components/_hero.twig' %}
+
+    <section class="info-sections">
+        <div class="info-block">
+            <div class="info-block__content">
+                <h2 class="info-block__title">{{ entry.subheading }}</h2>
+                <p class="info-block__text">{{ entry.shortText }}</p>
+            </div>
+            {% if entry.image.one() %}
+                <div class="info-block__image">
+                    <img src="{{ entry.image.one().url }}" alt="{{ entry.image.one().title }}">
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="info-block">
+            <div class="info-block__content">
+                <h2 class="info-block__title">{{ entry.subheading2 }}</h2>
+                <p class="info-block__text">{{ entry.shortText2 }}</p>
+            </div>
+            {% if entry.image2.one() %}
+                <div class="info-block__image">
+                    <img src="{{ entry.image2.one().url }}" alt="{{ entry.image2.one().title }}">
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="info-block">
+            <div class="info-block__content">
+                <h2 class="info-block__title">{{ entry.subheading3 }}</h2>
+                <p class="info-block__text">{{ entry.shortText3 }}</p>
+            </div>
+            {% if entry.image3.one() %}
+                <div class="info-block__image">
+                    <img src="{{ entry.image3.one().url }}" alt="{{ entry.image3.one().title }}">
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="info-block">
+            <div class="info-block__content">
+                <h2 class="info-block__title">{{ entry.subheading4 }}</h2>
+                <p class="info-block__text">{{ entry.shortText4 }}</p>
+            </div>
+            {% if entry.image4.one() %}
+                <div class="info-block__image">
+                    <img src="{{ entry.image4.one().url }}" alt="{{ entry.image4.one().title }}">
+                </div>
+            {% endif %}
+        </div>
+    </section>
+{% endblock %}

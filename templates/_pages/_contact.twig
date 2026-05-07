@@ -1,0 +1,26 @@
+{% extends '_layouts/_base.twig' %}
+
+{% block content %}
+<h1 class="hero__title2">{{ entry.heading }}</h1>
+
+<section>
+    <div class="hero__contact">
+    {% include '_components/_form.twig' %}
+    {% include '_components/_maps.twig' %}
+    </div>
+</section>
+
+<section class="events">
+        <h2 class="event-title">{{ entry.subheading }}</h2>
+        <div class="evenents">
+            {% for block in entry.fotosEvenementen.all() %}
+                    <p class="event-text">{{ block.shortText }}</p>
+                <div class="event-images">
+                    {% for asset in block.image.all() %}
+                        <img src="{{ asset.url }}">
+                    {% endfor %}
+                </div>
+            {% endfor %}   
+        </div>
+</section>
+{% endblock %}

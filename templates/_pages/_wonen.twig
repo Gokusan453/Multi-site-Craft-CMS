@@ -1,0 +1,42 @@
+{% extends '_layouts/_base.twig' %}
+ 
+{% block content %}
+ 
+    {% include '_components/_hero.twig' %}
+ 
+    <section class="short-accom-section">
+        {% for block in entry.contentWonen.all() %}
+            <div class="short-accom-block">
+                <div class="short-accom-text">
+                    <h2>{{ block.subheading }}</h2>
+                    <p>{{ block.shortText }}</p>
+                </div>
+                <div class="short-accom-image">
+                    {% for asset in block.image.all() %}
+                        <img src="{{ asset.url }}">
+                    {% endfor %}
+                </div>
+            </div>
+        {% endfor %}
+    </section>
+ 
+    <section class="care-section">
+        <h2>{{ entry.subheading2 }}</h2>
+        <div class="care-blocks">
+            {% for block in entry.zorgafbeeldingen.all() %}
+                <div class="care-block">
+                    <div class="care-block__content">
+                        <h3>{{ block.subheading }}</h3>
+                        <p>{{ block.shortText }}</p>
+                    </div>
+                    <div class="care-block__image">
+                        {% for asset in block.image.all() %}
+                            <img src="{{ asset.url }}">
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+ 
+{% endblock %}
