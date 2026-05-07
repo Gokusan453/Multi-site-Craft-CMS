@@ -1,75 +1,75 @@
-# Project-2-werkstuk-akg
- 
-## Overzicht
-Dit project is gebouwd met **Craft CMS** als hoofdcontentmanagementsysteem, met een lokaal ontwikkelomgeving opgezet via **Docker**, **DDEV** en **Composer**. We hebben Twig-templates gebruikt voor dynamische pagina’s, responsive design toegepast met CSS Grid en Flexbox, en minimal JavaScript voor interactieve elementen.
- 
-## Wat we hebben gedaan
-- **Contentbeheer en CMS-setup**
-  - Craft CMS ingericht als headless CMS voor contentinvoer en -beheer.
-  - Database-snapshot automatisch geïmporteerd (zie “Database” hieronder).
-- **Template-ontwikkeling**
-  - Twig-templates voor startpagina, projectpagina, diensten, galerij, over ons en wonen.
-  - Grid-indelingen en component-based structuur met custom CSS-klassen (bijv. `.twige`, `.grid.cards`).
-  - Globale H2-stijldefinities en thema’s (mariahuis, sintcoleta, cultuurcolette).
-- **Interactie en Responsiveness**
-  - CSS media queries voor mobiele weergave.
-  - Minimal JavaScript voor menu toggles en andere UI-interacties.
-- **Versiebeheer en afhankelijkheden**
-  - Git voor versiecontrole.
-  - Composer voor PHP-packages en Craft CMS.
- 
-## Gebruikte Technologieën
-- **Craft CMS** – contentmanagement en dynamische pagina’s.
+# Multi-site Craft CMS
+
+## Overview
+This project was built using **Craft CMS** as the main content management system, with a local development environment set up using **Docker**, **DDEV**, and **Composer**. We used Twig templates for dynamic pages, implemented responsive layouts with CSS Grid and Flexbox, and added minimal JavaScript for interactive elements.
+
+## What We Built
+- **Content Management & CMS Setup**
+  - Configured Craft CMS for content input and management.
+  - Database snapshot automatically imported (see “Database” below).
+
+- **Template Development**
+  - Twig templates for the homepage, project pages, services, gallery, about page, and housing pages.
+  - Grid layouts and a component-based structure using custom CSS classes (e.g. `.twige`, `.grid.cards`).
+  - Global H2 style definitions and themes (mariahuis, sintcoleta, cultuurcolette).
+
+- **Interaction & Responsiveness**
+  - CSS media queries for mobile responsiveness.
+  - Minimal JavaScript for menu toggles and other UI interactions.
+
+- **Version Control & Dependencies**
+  - Git for version control.
+  - Composer for PHP packages and Craft CMS.
+
+## Technologies Used
+- **Craft CMS** – content management and dynamic pages.
 - **Twig** – templating engine.
-- **Docker** – containerisatie van webserver en database.
-- **DDEV** – eenvoudig lokaal draaien en configureren van Craft CMS.
+- **Docker** – containerization of the web server and database.
+- **DDEV** – easy local setup and configuration for Craft CMS.
 - **Composer** – dependency management.
-- **HTML5 & CSS3** – structuur en styling.
-- **Flexbox & CSS Grid** – layout.
-- **JavaScript** – interactieve componenten.
- 
-## Installatie en Gebruik (Visual Studio Code)
- 
-### 1. Vereisten
-- Docker geïnstalleerd en actief.
-- DDEV geïnstalleerd.
-- Composer beschikbaar.
-- Visual Studio Code (of een andere IDE).
- 
-### 2. Project configureren
+- **HTML5 & CSS3** – structure and styling.
+- **Flexbox & CSS Grid** – layout systems.
+- **JavaScript** – interactive components.
+
+## Installation & Usage (Visual Studio Code)
+
+### 1. Requirements
+- Docker installed and running.
+- DDEV installed.
+- Composer available.
+- Visual Studio Code (or another IDE).
+
+### 2. Configure the Project
 ```bash
 git clone https://your-repo-url.git
 cd project-2-werkstuk-akg
 ddev config --project-type=craftcms --docroot=web --create-docroot
 ```
- 
-### 3. DDEV starten & Dependencies installeren
+
+### 3. Start DDEV & Install Dependencies
 ```bash
 ddev start
 composer install
 ```
- 
+
 ### 4. Database
-- Plaats je database-snapshot (bijv. `project-2-werkstuk-akg.sql.gz`) in:
+- Place your database snapshot (e.g. `project-2-werkstuk-akg.sql.gz`) inside:
   ```
   .ddev/db_snapshots/
   ```
-- DDEV importeert de snapshot automatisch bij
-    ```bash
-    ddev start
-    ```
-- Handmatig importeren kan ook:
+
+- DDEV automatically imports the snapshot when running:
+  ```bash
+  ddev start
+  ```
+
+- You can also import it manually:
   ```bash
   ddev import-db --src=.ddev/db_snapshots/project-2-werkstuk-akg.sql.gz
-  ```  
- 
-### 5. Toegang tot de site
-- **Mariahuis:**  `https://project-2-werkstuk-akg.ddev.site/`
-- **Sint-coleta** : `https://project-2-werkstuk-akg.ddev.site/sint-coleta`
-- **Cultuur-colette** : `https://project-2-werkstuk-akg.ddev.site/cultuur-colette`
+  ```
+
+### 5. Access the Website
+- **Mariahuis:** `https://project-2-werkstuk-akg.ddev.site/`
+- **Sint-Coleta:** `https://project-2-werkstuk-akg.ddev.site/sint-coleta`
+- **Cultuur-Colette:** `https://project-2-werkstuk-akg.ddev.site/cultuur-colette`
 - **Admin URL:** `https://project-2-werkstuk-akg.ddev.site/admin`
- 
-### AUTHORS
-- [Gökhan Güner](https://github.com/Gokusan453)
-- [Ömer Faruk Asik](https://github.com/omerasik)
-- Serdar Karaman
